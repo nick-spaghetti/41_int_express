@@ -1,0 +1,39 @@
+{
+  "name": "groupchat",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "debug": "nodemon --inspect server.js",
+    "dev:setup": "npm i --save-dev jest morgan nodemon supertest",
+    "setup": "npm i axios bcrypt body-parser express helmet jsonschema jsonwebtoken nunjucks pg validator",
+    "start": "nodemon server.js",
+    "test": "jest --verbose --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-ws": "^4.0.0",
+    "helmet": "^7.0.0",
+    "jsonschema": "^1.4.1",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.10.0",
+    "socket.io": "^2.1.1",
+    "validator": "^13.9.0"
+  },
+  "nodemonConfig": {
+    "ext": "html, css, js, json, md, py, sql",
+    "verbose": true
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}

@@ -8,8 +8,9 @@
 41.2/express-bookstore/node_modules
 41.2/express-bookstore/package-lock.json
 
-41.3/_scratch
-41.3/ref
+41.3/
 
 41.4/_scratch
 41.4/ref
+41.4/websocket-groupchat/node_modules
+41.4/websocket-groupchat/package-lock.json
